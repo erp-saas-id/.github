@@ -16,17 +16,13 @@ Multi-tenant ERP SaaS untuk pasar Indonesia — manajemen inventaris, otomasi ak
 - Inventaris & Multi-Warehouse dengan mutasi stok atomik.
 - Penjualan & otomasi jurnal akuntansi (double-entry ledger, synchronous).
 
-## Repository
+## Repositori
 
 | Repo | Deskripsi |
 |---|---|
-| [`erp-saas-id`](https://github.com/erp-saas-id/erp-saas-id) | Dokumentasi, PRD, API contract, konvensi development (repo ini) |
-| [`frontend`](https://github.com/erp-saas-id/frontend) | Next.js client |
-| [`backend`](https://github.com/erp-saas-id/backend) | NestJS API |
+| [`.github`](https://github.com/erp-saas-id/.github) | Profil organisasi dan konfigurasi global (repo ini) |
+| [`backend`](https://github.com/erp-saas-id/backend) | NestJS API Service |
+| [`frontend`](https://github.com/erp-saas-id/frontend) | Next.js Client App |
 
-## Dokumen
-
-- [`PRD.md`](./PRD.md) — requirement dan keputusan arsitektur
-- [`docs/API_CONTRACT.md`](./docs/API_CONTRACT.md) — standar request/response API
-- [`.agents/AGENTS.md`](./.agents/AGENTS.md) — konvensi global development
-- [`.agents/workflows/INSTRUCTION.md`](./.agents/workflows/INSTRUCTION.md) — tahapan implementasi per fase
+> [!NOTE]
+> Seluruh dokumen utama proyek (PRD, API Contract, dan aturan agent development) disimpan secara lokal pada direktori root workspace proyek dan tidak dilacak di dalam repositori publik ini.
